@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Cache conda
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         env:
           # Increase this value to reset cache if binder/environment.yml has not changed
           CACHE_NUMBER: 0
